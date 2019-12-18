@@ -1,0 +1,10 @@
+import datetime
+current_time=datetime.datetime.now()
+#print("默认格式:{}".format(current_time))
+print("now time:",current_time)
+print("year\t",current_time.year)
+print("month\t",current_time.month)
+print("day\t",current_time.day)
+print("hour\t",current_time.hour)
+print("minute\t",current_time.minute)
+print("second\t",current_time.second)
